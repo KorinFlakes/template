@@ -51,6 +51,17 @@
         "DeleteAfterExtract": true,
         "OneShot": false
     },
+     {
+        "UpdateStageName": "Create Configs Directory",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"mkdir -p /home/amp/.ampdata/instances/Blops201/plutonium-black-ops-2/configs\"",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
     {
         "UpdateStageName": "Plutonium Config Files Download",
         "UpdateSourcePlatform": "All",
