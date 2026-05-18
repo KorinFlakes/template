@@ -1,5 +1,18 @@
 [
     {
+        "DisplayName": "RCON Password",
+        "Category": "Call of Duty Black Ops II:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "$RemoteAdminPassword",
+        "InputType": "text",
+        "Hidden": true,
+        "ParamFieldName": "rcon_password",
+        "ExcludeFromImport": true,
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Game Mode",
         "Category": "Server",
         "Description": "Sets the game mode for the server (e.g. multiplayer or zombies)",
