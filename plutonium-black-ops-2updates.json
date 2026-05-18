@@ -56,7 +56,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"-c \"mkdir -p {{$FullRootDir}}configs\"",
+        "UpdateSourceArgs": "-c \"mkdir -p {{$FullRootDir}}configs\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
