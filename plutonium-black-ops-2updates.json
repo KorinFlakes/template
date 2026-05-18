@@ -111,7 +111,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"wget -q -N -P \"{{$FullBaseDir}} https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && chmod +x {{$FullBaseDir}}winetricks; export WINEPREFIX=\"{{$FullRootDir}}.wine\"; export WINEARCH=win32; {{$FullBaseDir}}winetricks sound=disabled > {{$FullBaseDir}}winescript_log.txt 2>&1\"",
+        "UpdateSourceArgs": "-c \"wget -q -N -P '{{$FullBaseDir}}' https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && chmod +x {{$FullBaseDir}}winetricks && WINEPREFIX='{{$FullRootDir}}.wine' WINEARCH=win32 {{$FullBaseDir}}winetricks sound=disabled > {{$FullBaseDir}}winescript_log.txt 2>&1\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
