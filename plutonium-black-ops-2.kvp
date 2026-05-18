@@ -83,4 +83,4 @@ App.LinuxCommandLineArgs=bin/plutonium-bootstrapper-win32.exe
 App.WindowsCommandLineArgs=
 App.Ports=@IncludeJson[plutonium-black-ops-2ports.json]
 App.UpdateSources=@IncludeJson[plutonium-black-ops-2updates.json]
-App.EnvironmentVariables={"SteamAppId":"202970","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win32","WINEDEBUG":"-all"}
+App.EnvironmentVariables={"SteamAppId":"202970","WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win32","WINEDEBUG":"-all","XDG_RUNTIME_DIR":"/tmp"}
