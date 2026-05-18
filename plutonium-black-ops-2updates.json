@@ -56,7 +56,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"mkdir -p /home/amp/.ampdata/instances/Blops201/plutonium-black-ops-2/configs\"",
+        "UpdateSourceArgs": "-c \"-c \"mkdir -p {{$FullRootDir}}configs\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
