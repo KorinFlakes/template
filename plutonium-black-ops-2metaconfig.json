@@ -1,0 +1,12 @@
+[
+    {
+        "ConfigFile": "Plutonium/storage/t6/dedicated.cfg",
+        "ConfigType": "",
+        "AutoMap": false
+    },
+    {
+        "ConfigFile": "Plutonium/storage/t6/dedicated_zm.cfg",
+        "ConfigType": "",
+        "AutoMap": false
+    }
+]
