@@ -1,29 +1,5 @@
 [
     {
-        "UpdateStageName": "SteamCMD Multiplayer Client Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "202990",
-        "UpdateSourceArgs": "202970 ",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Windows",
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "SteamCMD Zombies Client Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "212910",
-        "UpdateSourceArgs": "202970",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Windows",
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
         "UpdateStageName": "Plutonium Updater Download",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
